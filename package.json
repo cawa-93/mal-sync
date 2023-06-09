@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "vite build --watch --mode development --minify false",
+    "start:firefox": "web-ext run --start-url \"about:debugging#/runtime/this-firefox\" --source-dir ./dist"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^4.3.9",
+    "web-ext": "^7.6.2"
+  },
+  "dependencies": {
+    "@samrum/vite-plugin-web-extension": "^5.0.0"
+  }
+}
